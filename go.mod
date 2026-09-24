@@ -1,3 +1,3 @@
 module github.com/ilyasaftr/strava-auto-kudos
 
-go 1.22
+go 1.27

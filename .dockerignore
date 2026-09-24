@@ -1,0 +1,10 @@
+.env
+.git
+.gitignore
+data/
+bin/
+dist/
+*.har
+.DS_Store
+*.test
+*.out

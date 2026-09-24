@@ -1,0 +1,15 @@
+services:
+  kudos:
+    build: .
+    image: strava-auto-kudos:latest
+    container_name: strava-auto-kudos
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - kudos-data:/data
+
+volumes:
+  kudos-data:
